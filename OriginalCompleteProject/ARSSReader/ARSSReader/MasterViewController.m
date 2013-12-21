@@ -28,8 +28,8 @@
     [super viewDidLoad];
     
     //configuration
-    self.title = @"Advanced RSS Reader";
-    feedURL = [NSURL URLWithString:@"http://feeds.feedburner.com/TouchCodeMagazine"];
+    self.title = @"SFERRINI NEWS";
+    feedURL = [NSURL URLWithString:@"http://sferrini.altervista.org/blog/feed/"];
     
     //add refresh control to the table view
     refreshControl = [[UIRefreshControl alloc] init];

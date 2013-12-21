@@ -35,7 +35,8 @@
 
 - (void)setText:(NSString*)text
 {
-	label.text = text;
+	//label.text = text;
+    label.text = @"";
 }
 
 @end
